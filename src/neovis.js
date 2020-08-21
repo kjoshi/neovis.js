@@ -462,9 +462,9 @@ export default class NeoVis {
           this._network = new vis.Network(container, this._data, options);
         }
         this._consoleLog("completed");
-        setTimeout(() => {
-          this._network.stopSimulation();
-        }, 10000);
+        // setTimeout(() => {
+        //   this._network.stopSimulation();
+        // }, 10000);
         this._events.generateEvent(CompletionEvent, {
           record_count: recordCount,
         });
