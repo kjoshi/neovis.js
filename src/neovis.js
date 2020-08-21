@@ -430,9 +430,11 @@ export default class NeoVis {
             },
           };
 
-          if (this._config.vis) {
-            merge(options, this._config.vis);
+          if (this._config.visjs) {
+            merge(options, this._config.visjs);
           }
+          this._consoleLog("VIS OPTIONS:");
+          this._consoleLog(options);
 
           const container = this._container;
           this._data = {
