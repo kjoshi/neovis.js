@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.8.4",
-    "lodash.merge": "^4.6.2",
+    "lodash": "^4.17.20",
     "neo4j-driver": "^4.1.0",
     "vis-network": "^7.3.5"
   },

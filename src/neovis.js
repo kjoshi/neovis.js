@@ -4,7 +4,7 @@ import Neo4j from "neo4j-driver";
 import * as vis from "vis-network/dist/vis-network.min";
 import "vis-network/dist/vis-network.min.css";
 import { defaults } from "./defaults";
-import merge from "lodash.merge";
+import merge from "lodash/merge";
 import {
   EventController,
   CompletionEvent,
